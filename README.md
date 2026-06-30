@@ -47,23 +47,38 @@ Modelos tradicionais como Regressão Linear e Random Forest falharam, então a s
 O modelo final conseguiu sair do zero e pontuar um $R^2$ positivo de **0.0554**. Isso significa que, mesmo o comportamento humano sendo muito imprevisível em compras livres, o modelo conseguiu capturar inteligência real sobre o negócio. 
 O gráfico de importância de variáveis provou que o histórico **Monetário** do cliente é o fator que mais pesa para prever o seu gasto futuro.
 
-Visualizações geradas no projeto:
-!
+## Visualizações Geradas no Projeto:
+
+### Agrupamentos:
+
+![Visualização dos Clusters](images/grafico_pairplot.png)
+
 ![Gráfico de Centroides](images/grafico_centroides.png)
-![Importância das Variáveis](images/importancia_features.png)
+
+![Método do Cotovelo](images/grafico_cotovelo.png)
+
+### Distribuições:
+
+![Gráfico das Distribuições sem Tratamento](images/grafico_distribuicoes.png)
+
+![Variáveis Normalizadas](images/grafico_normalizadas.png)
+
+### Feature Importances:
+
+![Importância das Variáveis](images/grafico_importancias.png)
 
 ---
 
 ## 🧠 Conclusão e Aprendizados
 
-Este projeto demonstrou que os dados do mundo real são complexos e raramente seguem padrões perfeitos de livros didáticos. A maior vitória foi entender por que os modelos iniciais falharam e conseguir aplicar uma solução avançada (Tweedie Loss) para domar as distorções causadas pelos clientes milionários e pelo excesso de zeros na base.
+Este projeto demonstrou que os dados do mundo real são complexos e raramente seguem padrões perfeitos. O principal neste projeto foi entender por que os modelos iniciais falharam e conseguir aplicar uma solução avançada (Tweedie Loss) para domar as distorções causadas pelos clientes que mais gastam e pelo excesso de zeros na base.
 
-Como próximos passos para melhorar o modelo, seria interessante criar novas variáveis, como as categorias de produtos mais comprados por cada cliente.
+Como próximos passos para melhorar o modelo, seria interessante criar novas variáveis, como as categorias de produtos mais comprados por cada cliente, além de investigar outros possíveis modelos e suas configurações.
 
 ---
 
 ## 📁 Estrutura do Repositório
 
 * `images/`: Gráficos gerados durante as análises.
-* `projeto_ltv_ecommerce.ipynb`: Notebook com todo o código Python desenvolvido.
+* `Projeto_LTV_e_Segmentação.ipynb`: Notebook com todo o código Python desenvolvido.
 * `requirements.txt`: Lista de bibliotecas necessárias para rodar o código.
