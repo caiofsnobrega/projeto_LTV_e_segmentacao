@@ -45,12 +45,9 @@ Two major real-world challenges came about: a large number of customers didn't b
 ### Prediction Model Performance:
 The final model successfully brought the $R^2$ into positive territory at **0.0554**. While human purchasing behavior in non-contractual settings is highly chaotic, the model successfully captured genuine business intelligence. The feature importance analysis proved that a customer's historical **Monetary** value is the strongest predictor of their future spend.
 
-*(Tip: You can display your saved images here)*
-![Centroids Plot](images/grafico_centroides.png)
-![Feature Importance](images/importancia_features.png)
-## Visualizações Geradas no Projeto:
+## Visualizations Produced throughout the Project:
 
-### Agrupamentos:
+### Clusters:
 
 ![Clusters Visualization](images/grafico_pairplot.png)
 
