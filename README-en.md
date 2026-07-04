@@ -14,6 +14,8 @@ The solution was split into two main parts:
 
 The project was built step-by-step following a logical data science pipeline:
 
+Note: As an integral part of the EBAC Data Science course, this project received tutoring and artificial intelligence support at certain stages.
+
 ### 1. Data Cleaning and Preparation
 The raw data contained transactions from a UK-based e-commerce. In this stage:
 * Records missing customer identification were removed.
