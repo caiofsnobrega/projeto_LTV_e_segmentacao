@@ -14,6 +14,8 @@ A solução foi dividida em duas partes:
 
 O projeto foi construído passo a passo seguindo uma linha lógica de análise de dados:
 
+Nota: Como parte integrante do curso de Ciência de Dados da EBAC, este projeto contou com tutoria e suporte de inteligência artificial em determinadas etapas.
+
 ### 1. Limpeza e Preparação dos Dados
 Os dados brutos continham transações de um e-commerce do Reino Unido. Nesta etapa:
 * Foram removidos registros sem identificação de cliente.
