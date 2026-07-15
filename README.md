@@ -51,22 +51,22 @@ O gráfico de importância de variáveis provou que o histórico **Monetário** 
 
 ## Visualizações Geradas no Projeto:
 
-### Agrupamentos:
-
-![Visualização dos Clusters](images/grafico_pairplot.png)
-
-![Gráfico de Centroides](images/grafico_centroides.png)
-
-![Método do Cotovelo](images/grafico_cotovelo.png)
-
-### Distribuições:
-
+### Distribuições das variáveis criadas (Recência, Frequência, Valor Monetário):
 ![Gráfico das Distribuições sem Tratamento](images/grafico_distribuicoes.png)
 
+### Variáveis Normalizadas:
 ![Variáveis Normalizadas](images/grafico_normalizadas.png)
 
-### Feature Importances:
+### Método para determinação da quantidade de grupos:
+![Método do Cotovelo](images/grafico_cotovelo.png)
 
+### Agrupamentos:
+![Visualização dos Clusters](images/grafico_pairplot.png)
+
+### Pontos médios de cada grupo:
+![Gráfico de Centroides](images/grafico_centroides.png)
+
+### Feature Importances - Variáveis mais relevantes:
 ![Importância das Variáveis](images/grafico_importancias.png)
 
 ---
